@@ -1,5 +1,7 @@
 # U-Boot btrfs Out-of-Bounds Read (`btrfs_read_extent_reg`)
 
+**Tested against U-Boot commit:** `6741b0dfb41`
+
 An out-of-bounds read in U-Boot's btrfs filesystem driver, reachable from an
 untrusted btrfs image. Found by source review and confirmed with a working
 AddressSanitizer reproducer on a sandbox build.
