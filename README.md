@@ -260,4 +260,3 @@ respond and prepare a fix before any public discussion.
 - Exact line numbers (`inode.c:514`, `751`) correspond to the tested commit and
   may differ across versions; the logic is unchanged wherever the compressed-
   extent `memcpy` uses `btrfs_file_extent_offset` without a size check.
-```
